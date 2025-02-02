@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@helper/*": [
+				"./src/helper/*"
+			],
+			"@config/*": [
+				"./src/config/*"
+			],
+			"@/*": [
+				"./*"
+			],
+			"@src/*": [
+				"./src/*"
+			],
+			"@modules/*": [
+				"./src/modules/*"
+			],
+			"@user/*": [
+				"./src/modules/User/*"
+			]
+		}
+	}
+}
